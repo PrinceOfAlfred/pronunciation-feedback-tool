@@ -1,5 +1,3 @@
-import "../styles/Instructions.scss";
-
 export const Instructions = () => {
   return (
     <div>
