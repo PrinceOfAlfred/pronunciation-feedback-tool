@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import useAudioRecorder from "../hooks/useAudioRecorder";
-// import "../styles/SpeechRecorder.scss";
+import "../styles/AudioRecorder.scss";
 
 export const AudioRecorder = ({ onAnalysisComplete }) => {
   const {

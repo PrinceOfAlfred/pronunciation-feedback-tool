@@ -4,6 +4,8 @@ import { Instructions } from "./components/Instructions";
 import { AudioRecorder } from "./components/AudioRecorder";
 import { Results } from "./components/Results";
 
+import "./styles/global.scss";
+
 function App() {
   const [results, setResults] = useState(null);
 
@@ -13,7 +15,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app-container">
       <Header />
       <Instructions />
       <AudioRecorder onAnalysisComplete={handleAnalysisComplete} />
