@@ -78,6 +78,7 @@ export const useAudioRecorder = () => {
       }
 
       setError("Analysis failed. Please try again.");
+      console.error("Speech analysis failed:", err);
       throw err;
     } finally {
       setIsAnalysing(false);

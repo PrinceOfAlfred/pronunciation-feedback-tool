@@ -80,7 +80,10 @@ app.post(
 
       // 1. First get Speechace analysis
       const form = new FormData();
-      form.append("user_audio_file", req.file.buffer);
+      form.append("user_audio_file", req.file.buffer, {
+        filename: "audio.wav",
+        contentType: req.file.mimetype,
+      });
       const config = {
         headers: {
           ...form.getHeaders(),
