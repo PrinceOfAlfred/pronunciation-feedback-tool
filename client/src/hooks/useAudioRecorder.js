@@ -53,8 +53,7 @@ export const useAudioRecorder = () => {
   const analyseSpeech = async (audioBlob) => {
     setIsAnalysing(true);
     const apiEndpoint =
-      "http://localhost:5000/api/analyse-pronunciation" ||
-      "https://ielts-speaking-simulator-backend.vercel.app/api/analyze-speech";
+      "https://pronunciation-feedback-tool-server.vercel.app/api/analyse-pronunciation";
 
     try {
       const formData = new FormData();
