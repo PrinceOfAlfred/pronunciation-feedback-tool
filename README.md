@@ -1,4 +1,4 @@
-# IELTS Speaking Simulator Documentation
+# Pronunciation Feedback Tool Documentation
 
 ## Table of Contents
 - [Overview](https://github.com/PrinceOfAlfred/pronunciation-feedback-tool/new/main?filename=README.md#overview)
